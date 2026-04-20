@@ -1,0 +1,33 @@
+{
+  "project": "International Businesswoman Awards",
+  "navigation_main": [
+    {
+      "label": "O PLEBISCYCIE",
+      "url": "/o-plebiscycie/"
+    },
+    {
+      "label": "MIEJSCE",
+      "url": "/miejsce/"
+    },
+    {
+      "label": "JURY",
+      "url": "/jury/"
+    },
+    {
+      "label": "WYWIADY",
+      "url": "/wywiady/"
+    },
+    {
+      "label": "GALERIA",
+      "url": "/galeria/"
+    },
+    {
+      "label": "MAGAZYN",
+      "url": "/magazyn/"
+    },
+    {
+      "label": "KONTAKT",
+      "url": "/kontakt/"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "layout": "interview.njk",
+  "tags": ["wywiady"],
+  "permalink": "/wywiady/{{ page.fileSlug }}/"
+}
