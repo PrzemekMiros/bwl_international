@@ -1,18 +1,37 @@
-<section class="bg-[#c69a62]">
-  <div class="mx-auto grid max-w-[1920px] grid-cols-1 xl:grid-cols-[40%_60%]">
-    <div
-      class="min-h-[520px] bg-cover bg-center xl:min-h-[1080px]"
-      style="background-image: url('/assets/images/about-awards.jpg');"
-    ></div>
+<section class="pt-24 bg-[#c69a62]">
+  <div class="mx-auto grid max-w-[1600px] grid-cols-1 xl:grid-cols-[45%_55%] gap-12 px-6 md:px-24">
+    <div class="relative overflow-hidden" data-about-slider>
+      <div class="absolute inset-0">
+        <div class="absolute inset-0 opacity-100 transition-opacity duration-700 ease-out" data-about-slide>
+          <img src="/assets/img/about/EDYTA-GORNIAK_POP-scaled.jpg" alt="Palazzo Brancaccio" class="h-full w-full object-cover object-top" draggable="false" /> 
+        </div>
+        <div class="absolute inset-0 opacity-0 transition-opacity duration-700 ease-out" data-about-slide>
+          <img src="/assets/img/about/Aleksandra-Tomiczek-min-scaled.jpg" alt="Rzym - Palazzo Brancaccio" class="h-full w-full object-cover object-top" draggable="false" />
+        </div>
+        <div class="absolute inset-0 opacity-0 transition-opacity duration-700 ease-out" data-about-slide>
+          <img src="/assets/img/about/Beata-Kozidrak-min-scaled.jpg" alt="Sala balowa Palazzo Brancaccio" class="h-full w-full object-cover object-top" draggable="false" />
+        </div>
+        <div class="absolute inset-0 opacity-0 transition-opacity duration-700 ease-out" data-about-slide>
+          <img src="/assets/img/about/BWA_ROMA_0705-scaled.jpg" alt="Roof Garden Hotel Forum" class="h-full w-full object-cover object-top" draggable="false" />
+        </div>
+        <div class="absolute inset-0 opacity-0 transition-opacity duration-700 ease-out" data-about-slide>
+          <img src="/assets/img/about/BWA_ROMA_0470-scaled.jpg" alt="Ogrod Palazzo Brancaccio" class="h-full w-full object-cover object-top" draggable="false" />
+        </div>
+      </div>
+
+      <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-black/20"></div>
+
+      <div class="absolute bottom-6 left-1/2 z-10 flex -translate-x-1/2 items-center gap-2" data-about-dots></div>
+    </div>
 
     <div
-      class="px-8 py-12 text-white sm:px-12 md:px-16 lg:px-20 xl:px-16 xl:py-14 2xl:px-20"
+      class="py-12 text-white xl:py-14"
       style="background-image:
         linear-gradient(30deg, rgba(255,255,255,0.08) 1px, transparent 1px),
         linear-gradient(150deg, rgba(255,255,255,0.08) 1px, transparent 1px);
         background-size: 135px 78px;"
     >
-      <h2 class="text-5xl font-bold uppercase tracking-[0.06em] lg:text-7xl">O konkursie</h2>
+      <h2 class="text-4xl font-semibold uppercase tracking-[0.06em] lg:text-6xl">O konkursie</h2>
 
       <div class="mt-8 max-w-[980px] space-y-6 text-2 xl leading-[1.45] text-white/95">
         <p>
@@ -29,14 +48,95 @@
         </p>
       </div>
 
-      <div class="mt-14 text-center">
-        <p class="text-4xl font-black uppercase tracking-[0.08em] text-[#161a22] lg:text-6xl">
+      <div class="mt-14">
+        <p class="text-4xl font-black uppercase tracking-[0.08em] text-[#161a22]">
           International
           <br />
           Businesswoman Awards to
         </p>
-        <p class="mt-2 text-4xl font-black uppercase tracking-[0.08em] text-white lg:text-6xl">Wartosci<span class="text-[#161a22]">|</span></p>
+        <p class="mt-2 text-4xl font-black uppercase tracking-[0.08em] text-white">Wartosci<span class="text-[#161a22]">|</span></p>
       </div>
     </div>
   </div>
 </section>
+
+<script>
+  (function () {
+    const root = document.querySelector("[data-about-slider]");
+    if (!root) return;
+
+    const slides = Array.from(root.querySelectorAll("[data-about-slide]"));
+    const dotsWrap = root.querySelector("[data-about-dots]");
+    if (!slides.length || !dotsWrap) return;
+
+    let index = 0;
+    let timer = null;
+    let startX = 0;
+    let dragging = false;
+
+    function render() {
+      slides.forEach((slide, i) => {
+        slide.style.opacity = i === index ? "1" : "0";
+      });
+      dotsWrap.querySelectorAll("button").forEach((dot, i) => {
+        dot.style.opacity = i === index ? "1" : "0.45";
+        dot.setAttribute("aria-current", i === index ? "true" : "false");
+      });
+    }
+
+    function goTo(nextIndex) {
+      index = (nextIndex + slides.length) % slides.length;
+      render();
+    }
+
+    function startAutoplay() {
+      stopAutoplay();
+      timer = setInterval(() => goTo(index + 1), 5000);
+    }
+
+    function stopAutoplay() {
+      if (timer) clearInterval(timer);
+      timer = null;
+    }
+
+    slides.forEach((_, i) => {
+      const dot = document.createElement("button");
+      dot.type = "button";
+      dot.className = "h-2.5 w-2.5 rounded-full bg-white transition-opacity";
+      dot.setAttribute("aria-label", "Slajd " + (i + 1));
+      dot.addEventListener("click", () => {
+        goTo(i);
+        startAutoplay();
+      });
+      dotsWrap.appendChild(dot);
+    });
+
+    root.addEventListener("pointerdown", (e) => {
+      dragging = true;
+      startX = e.clientX;
+      stopAutoplay();
+    });
+
+    root.addEventListener("pointerup", (e) => {
+      if (!dragging) return;
+      const delta = e.clientX - startX;
+      dragging = false;
+      if (Math.abs(delta) > 40) {
+        goTo(delta < 0 ? index + 1 : index - 1);
+      }
+      startAutoplay();
+    });
+
+    root.addEventListener("pointerleave", () => {
+      if (!dragging) return;
+      dragging = false;
+      startAutoplay();
+    });
+
+    root.addEventListener("mouseenter", stopAutoplay);
+    root.addEventListener("mouseleave", startAutoplay);
+
+    render();
+    startAutoplay();
+  })();
+</script>

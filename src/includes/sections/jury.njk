@@ -1,0 +1,32 @@
+<section id="jury" class="mx-auto max-w-[1200px] py-16">
+  <div class="mb-8 flex items-end justify-between gap-4">
+    <div>
+      <p class="text-sm uppercase tracking-[0.2em] text-[#d4ab71]">Typ postu</p>
+      <h2 class="text-4xl font-semibold uppercase lg:text-6xl">Jury</h2>
+    </div>
+    <a class="text-sm font-semibold uppercase tracking-[0.08em] text-[#0b0d1e] hover:text-[#d4ab71]" href="/jury/">
+      Zobacz wszystkie
+    </a>
+  </div>
+
+  {% set members = collections.jury | reverse %}
+  {% if members and members[0] %}
+    <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      {% for member in members %}
+        <article class="rounded-2xl border border-black/10 bg-white p-6 shadow-sm">
+          <h3 class="text-xl font-semibold text-[#0b0d1e]">
+            <a href="{{ member.url }}" class="transition-colors hover:text-[#d4ab71]">{{ member.data.title }}</a>
+          </h3>
+          {% if member.data.excerpt %}
+            <p class="mt-4 text-sm leading-6 text-black/80">{{ member.data.excerpt }}</p>
+          {% endif %}
+          <a class="mt-5 inline-block text-sm font-semibold uppercase tracking-[0.08em] text-[#0b0d1e] hover:text-[#d4ab71]" href="{{ member.url }}">
+            Czytaj profil
+          </a>
+        </article>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p class="text-black/70">Brak opublikowanych wpisow jury.</p>
+  {% endif %}
+</section>

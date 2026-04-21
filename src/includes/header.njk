@@ -9,14 +9,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/styles.css" />
   </head>
-  <body class="min-h-screen text-slate-100">
+  <body class="min-h-screen overflow-x-hidden">
     <header class="bg-[#f1f1f1] text-slate-900">
       <div class="mx-auto max-w-[1200px] px-4">
         <div class="grid min-h-[84px] grid-cols-[1fr_auto_1fr] items-center py-4 md:h-[108px] md:py-0">
           <div></div>
-            <div class="hidden leading-none sm:block">
+            <div class="leading-none">
                <a href="/">
-                <img src="/assets/img/logo/logo.png">
+                <img src="/assets/img/logo/logo.png" class="h-auto w-[170px] sm:w-[340px]" alt="International Businesswoman Awards">
                </a>
             </div>
           <div class="flex items-center justify-end gap-3 pr-1 sm:gap-4 sm:pr-3">
@@ -36,9 +36,30 @@
         </div>
       </div>
       <div class="bg-[#171717] shadow-[inset_0_1px_0_rgba(255,255,255,0.07)]">
-        <div class="mx-auto max-w-[1200px] px-0">
+        <div class="mx-auto max-w-[1200px] px-4 md:px-0">
           <nav class="relative">
-            <ul class="flex items-stretch overflow-x-auto whitespace-nowrap">
+            <details class="group md:hidden">
+              <summary class="flex h-[52px] cursor-pointer list-none items-center justify-between px-2 text-[13px] font-medium uppercase tracking-[0.08em] text-white">
+                <span>Menu</span>
+                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path d="M6 9l6 6 6-6"></path>
+                </svg>
+              </summary>
+              <ul class="border-t border-white/10 py-2">
+                {% for item in menu.navigation_main %}
+                  <li>
+                    <a
+                      href="{{ item.url }}"
+                      class="block px-3 py-3 text-[13px] font-medium uppercase tracking-[0.06em] text-white transition hover:bg-[#303030]"
+                    >
+                      {{ item.label }}
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </details>
+
+            <ul class="hidden items-stretch overflow-x-auto whitespace-nowrap md:flex">
               {% for item in menu.navigation_main %}
                 <li class="{% if loop.first %}border-l-4 border-l-[#c59b52]{% endif %}">
                   <a

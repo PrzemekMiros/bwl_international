@@ -1,4 +1,4 @@
-{
+﻿{
   "project": "International Businesswoman Awards",
   "navigation_main": [
     {
@@ -15,7 +15,7 @@
     },
     {
       "label": "WYWIADY",
-      "url": "/wywiady/"
+      "url": "/interviews/"
     },
     {
       "label": "GALERIA",
@@ -31,3 +31,4 @@
     }
   ]
 }
+

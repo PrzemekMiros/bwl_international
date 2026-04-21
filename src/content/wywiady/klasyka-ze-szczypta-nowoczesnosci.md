@@ -1,42 +1,43 @@
----
+﻿---
 title: "klasyka ze szczypta nowoczesnosci"
 description: "Wywiad: klasyka ze szczypta nowoczesnosci"
 ---
 
-﻿# Klasyka ze szczyptą nowoczesności
+ď»ż# Klasyka ze szczyptÄ… nowoczesnoĹ›ci
 
-Source: /international/wywiady/klasyka-ze-szczypta-nowoczesnosci/
+Source: /international/interviews/klasyka-ze-szczypta-nowoczesnosci/
 
-W RESTAURACJI AKADEMIA MOŻNA NIE TYLKO FANTASTYCZNIE ZJEŚĆ, ALE RÓWNIEŻ POROZMAWIAĆ O BOGATEJ POLSKIEJ TRADYCJI KULINARNEJ I KULTURALNEJ. O IDEI SPOTKAŃ KULINARNYCH I WYJĄTKOWYM MENU AKADEMII OPOWIADA JEJ WŁAŚCICIEL **ANDRZEJ STERNICKI**
+W RESTAURACJI AKADEMIA MOĹ»NA NIE TYLKO FANTASTYCZNIE ZJEĹšÄ†, ALE RĂ“WNIEĹ» POROZMAWIAÄ† O BOGATEJ POLSKIEJ TRADYCJI KULINARNEJ I KULTURALNEJ. O IDEI SPOTKAĹ KULINARNYCH I WYJÄ„TKOWYM MENU AKADEMII OPOWIADA JEJ WĹAĹšCICIELÂ **ANDRZEJ STERNICKI**
 
-**BWL: Panuje moda na kuchnie świata, a Pan stawia na tradycję.**
+**BWL: Panuje moda na kuchnie Ĺ›wiata, a Pan stawia na tradycjÄ™.**
 
-**AS:**Akademia proponuje swoim gościom nie tylko kuchnię polską, ale i międzynarodową. W menu mamy krewetki w tempurze z sosem sezamowym, tagiolini z owocami morza czy doradę z salsą pistacjową i czarnym ryżem gotowanym w mleku kokosowym. Tradycyjne polskie dania są u nas obecne od zawsze, jednak to naszym bywalcom zawdzięczamy tak szeroki ich wybór. „Weekendy z kuchnią polską” to był nasz sezonowy pomysł, który wyjątkowo spodobał się gościom. I to oni zdecydowali, żeby soboty i niedziele mają być czasem aromatycznych rosołów, chrupiących kotletów schabowych jak u babci oraz pysznych pierogów z jagodami. To są smaki, które pamiętamy z dzieciństwa i do których z przyjemnością wszyscy wracamy.
+**AS:**Akademia proponuje swoim goĹ›ciom nie tylko kuchniÄ™ polskÄ…, ale i miÄ™dzynarodowÄ…. W menu mamy krewetki w tempurze z sosem sezamowym, tagiolini z owocami morza czy doradÄ™ z salsÄ… pistacjowÄ… i czarnym ryĹĽem gotowanym w mleku kokosowym. Tradycyjne polskie dania sÄ… u nas obecne od zawsze, jednak to naszym bywalcom zawdziÄ™czamy tak szeroki ich wybĂłr. â€žWeekendy z kuchniÄ… polskÄ…â€ť to byĹ‚ nasz sezonowy pomysĹ‚, ktĂłry wyjÄ…tkowo spodobaĹ‚ siÄ™ goĹ›ciom. I to oni zdecydowali, ĹĽeby soboty i niedziele majÄ… byÄ‡ czasem aromatycznych rosoĹ‚Ăłw, chrupiÄ…cych kotletĂłw schabowych jak u babci oraz pysznych pierogĂłw z jagodami. To sÄ… smaki, ktĂłre pamiÄ™tamy z dzieciĹ„stwa i do ktĂłrych z przyjemnoĹ›ciÄ… wszyscy wracamy.
 
-**BWL: Które dania najbardziej przypadły gościom do gustu?**
+**BWL: KtĂłre dania najbardziej przypadĹ‚y goĹ›ciom do gustu?**
 
-**AS:** Zdecydowanym ulubieńcem naszych gości jest kotlet schabowy i to w wielu odsłonach. Serwujemy go nie tylko w wersji klasycznej z kapustą zasmażaną i ziemniakami, ale także z salsą pomidorową, rukolą i parmezanem albo po myśliwsku – z boczkiem, pieczarkami i kiszonym ogórkiem. Dużą popularnością cieszą się także niezmiennie kotlety mielone, choć tu sprawa nie jest łatwa, ponieważ każdy z nas ma inne wspomnienie idealnego kotleta mielonego.
+**AS:**Â Zdecydowanym ulubieĹ„cem naszych goĹ›ci jest kotlet schabowy i to w wielu odsĹ‚onach. Serwujemy go nie tylko w wersji klasycznej z kapustÄ… zasmaĹĽanÄ… i ziemniakami, ale takĹĽe z salsÄ… pomidorowÄ…, rukolÄ… i parmezanem albo po myĹ›liwsku â€“ z boczkiem, pieczarkami i kiszonym ogĂłrkiem. DuĹĽÄ… popularnoĹ›ciÄ… cieszÄ… siÄ™ takĹĽe niezmiennie kotlety mielone, choÄ‡ tu sprawa nie jest Ĺ‚atwa, poniewaĹĽ kaĹĽdy z nas ma inne wspomnienie idealnego kotleta mielonego.
 
-**BWL: A które należą do Pana faworytów?**
+**BWL: A ktĂłre naleĹĽÄ… do Pana faworytĂłw?**
 
-**AS:**Moje ulubione dania to mało popularne dziś, a cieszące się dużym powodzeniem kiedyś, potrawy, np. z dziczyzny. W menu Akademii możemy znaleźć nogę gęsi confit z kluskami śląskimi i sosem różanym czy biodrówkę jagnięcą z sosem truflowym i domowymi kopytkami.
+**AS:**Moje ulubione dania to maĹ‚o popularne dziĹ›, a cieszÄ…ce siÄ™ duĹĽym powodzeniem kiedyĹ›, potrawy, np. z dziczyzny. W menu Akademii moĹĽemy znaleĹşÄ‡ nogÄ™ gÄ™si confit z kluskami Ĺ›lÄ…skimi i sosem rĂłĹĽanym czy biodrĂłwkÄ™ jagniÄ™cÄ… z sosem truflowym i domowymi kopytkami.
 
-**BWL: Menu Akademii jednak nie do końca jest klasyczną kuchnią polską. Każde danie to szczypta nowoczesności.**
+**BWL: Menu Akademii jednak nie do koĹ„ca jest klasycznÄ… kuchniÄ… polskÄ…. KaĹĽde danie to szczypta nowoczesnoĹ›ci.**
 
-**AS:**Z przyjemnością korzystamy z produktów, które jeszcze 30 lat temu były dla nas zupełnie nieosiągalne. Przyzwyczailiśmy się wszyscy do obecności oliwy, bazylii i parmezanu w naszym menu, ale kuchnie świata wciąż mają nam wiele do zaoferowania. Nowością w naszej karcie jest np. bardzo delikatna, kremowa w smaku mozzarella buratta, która powstaje z mleka bawolego.
+**AS:**Z przyjemnoĹ›ciÄ… korzystamy z produktĂłw, ktĂłre jeszcze 30 lat temu byĹ‚y dla nas zupeĹ‚nie nieosiÄ…galne. PrzyzwyczailiĹ›my siÄ™ wszyscy do obecnoĹ›ci oliwy, bazylii i parmezanu w naszym menu, ale kuchnie Ĺ›wiata wciÄ…ĹĽ majÄ… nam wiele do zaoferowania. NowoĹ›ciÄ… w naszej karcie jest np. bardzo delikatna, kremowa w smaku mozzarella buratta, ktĂłra powstaje z mleka bawolego.
 
-Nowoczesnym elementem w klasycznej kuchni polskiej jest także sposób podania. Dbamy o to, aby serwowane przez nas potrawy nie tylko smakowały wyśmienicie, ale także by były przyjemne dla oka. Potrawy dekorujemy świeżymi kwiatami, kiełkami i pudrem z białej czekolady. Powiedzenie, że jemy oczami, ma naszym zdaniem swoje uzasadnienie.
+Nowoczesnym elementem w klasycznej kuchni polskiej jest takĹĽe sposĂłb podania. Dbamy o to, aby serwowane przez nas potrawy nie tylko smakowaĹ‚y wyĹ›mienicie, ale takĹĽe by byĹ‚y przyjemne dla oka. Potrawy dekorujemy Ĺ›wieĹĽymi kwiatami, kieĹ‚kami i pudrem z biaĹ‚ej czekolady. Powiedzenie, ĹĽe jemy oczami, ma naszym zdaniem swoje uzasadnienie.
 
-**BWL: Jak to wszystko działa „od kuchni”?**
+**BWL: Jak to wszystko dziaĹ‚a â€žod kuchniâ€ť?**
 
-**AS:**Przygoda zaczyna się od wyszukiwania najlepszych dostawców. Stawiamy na lokalnych producentów, promujemy rodzime, regionalne wyroby, np. kozie sery przyjeżdżają do nas z Podlasia. Bardzo dużą wagę przywiązujemy do tego, aby produkty, które wybieramy, były zawsze świeże i najwyższej jakości.
+**AS:**Przygoda zaczyna siÄ™ od wyszukiwania najlepszych dostawcĂłw. Stawiamy na lokalnych producentĂłw, promujemy rodzime, regionalne wyroby, np. kozie sery przyjeĹĽdĹĽajÄ… do nas z Podlasia. Bardzo duĹĽÄ… wagÄ™ przywiÄ…zujemy do tego, aby produkty, ktĂłre wybieramy, byĹ‚y zawsze Ĺ›wieĹĽe i najwyĹĽszej jakoĹ›ci.
 
-**BWL: Jak powstają najlepsze kompozycje smakowe?**
+**BWL: Jak powstajÄ… najlepsze kompozycje smakowe?**
 
-**AS:**Często inspirują nas produkty dostępne sezonowo i niektóre kompozycje smakowe powstają specjalnie dla nich. Na przykład jesień to czas leśnych grzybów, dyni i dziczyzny, stąd w naszym menu krem z dyni z nutką imbiru, tagiatelle z prawdziwkami, czy stek z polędwicy wołowej z sosem pieprzowym i ragout z prawdziwków. Jeśli zaś chodzi o tradycyjną kuchnię polską, to sekrety są w zasadzie dwa. Jeden to doskonała jakość produktów, a drugi – oryginalny przepis. Nasz Szef Kuchni, przygotowując polskie klasyki kulinarne, opiera się w dużym stopniu na przepisach… swojej babci. Więc jeśli schabowy, to koniecznie smażony na smalcu. Zależy nam także, aby przekonać naszych gości do mniej znanych, a bardzo niegdyś popularnych dań, takich jak na przykład gęsina, którą głównie jako kraj eksportujemy na Zachód.
+**AS:**CzÄ™sto inspirujÄ… nas produkty dostÄ™pne sezonowo i niektĂłre kompozycje smakowe powstajÄ… specjalnie dla nich. Na przykĹ‚ad jesieĹ„ to czas leĹ›nych grzybĂłw, dyni i dziczyzny, stÄ…d w naszym menu krem z dyni z nutkÄ… imbiru, tagiatelle z prawdziwkami, czy stek z polÄ™dwicy woĹ‚owej z sosem pieprzowym i ragout z prawdziwkĂłw. JeĹ›li zaĹ› chodzi o tradycyjnÄ… kuchniÄ™ polskÄ…, to sekrety sÄ… w zasadzie dwa. Jeden to doskonaĹ‚a jakoĹ›Ä‡ produktĂłw, a drugi â€“ oryginalny przepis. Nasz Szef Kuchni, przygotowujÄ…c polskie klasyki kulinarne, opiera siÄ™ w duĹĽym stopniu na przepisachâ€¦ swojej babci. WiÄ™c jeĹ›li schabowy, to koniecznie smaĹĽony na smalcu. ZaleĹĽy nam takĹĽe, aby przekonaÄ‡ naszych goĹ›ci do mniej znanych, a bardzo niegdyĹ› popularnych daĹ„, takich jak na przykĹ‚ad gÄ™sina, ktĂłrÄ… gĹ‚Ăłwnie jako kraj eksportujemy na ZachĂłd.
 
-> Jesteśmy tam, gdzie Puławska z Różaną się spotyka,a tętniące życiem Śródmieście ze spokojnym Mokotowem
+> JesteĹ›my tam, gdzie PuĹ‚awska z RĂłĹĽanÄ… siÄ™ spotyka,a tÄ™tniÄ…ce ĹĽyciem ĹšrĂłdmieĹ›cie ze spokojnym Mokotowem
 
-**BWL: Każdy znajdzie tu coś dla siebie, oprócz otwartych drzwi dla codziennych gości zespół organizuje ciekawe wydarzenia, np. „Rodzinne weekendy” i cykliczne „Spotkania kulinarne”. Mają powodzenie?**
+**BWL: KaĹĽdy znajdzie tu coĹ› dla siebie, oprĂłcz otwartych drzwi dla codziennych goĹ›ci zespĂłĹ‚ organizuje ciekawe wydarzenia, np. â€žRodzinne weekendyâ€ť i cykliczne â€žSpotkania kulinarneâ€ť. MajÄ… powodzenie?**
 
-**AS:**„Rodzinne weekendy” to nasz klasyk, ulubiony zarówno przez nas, jak i przez naszych gości. Nie wyobrażamy sobie weekendu w Akademii bez smaku tradycyjnego polskiego obiadu, wielopokoleniowych spotkań i gwaru rodzinnych rozmów przy stole. Bardzo ciekawą formą spędzania czasu są nasze „Spotkania kulinarne”, podczas których nie tylko cieszymy podniebienie specjalnie na tę okazję skomponowanymi zestawami menu, ale także rozmawiamy o bogatej polskiej tradycji kulinarnej i kulturalnej. Takie inicjatywy jak nasze „Spotkania kulinarne” inspirowane obiadami czwartkowymi u króla Stanisława Augusta Poniatowskiego cieszą się rosnącym zainteresowaniem wśród gości, choć potrzebujemy nieco czasu, aby nabrać rozpędu. W najbliższych miesiącach, wspólnie z panią Zofią Przymus, wykładowcą Akademii im. Leona Koźmińskiego, planujemy między innymi spotkania o specjalnej sezonowej tematyce. Spotkania te mają charakter otwarty, serdecznie zapraszamy.
+**AS:**â€žRodzinne weekendyâ€ť to nasz klasyk, ulubiony zarĂłwno przez nas, jak i przez naszych goĹ›ci. Nie wyobraĹĽamy sobie weekendu w Akademii bez smaku tradycyjnego polskiego obiadu, wielopokoleniowych spotkaĹ„ i gwaru rodzinnych rozmĂłw przy stole. Bardzo ciekawÄ… formÄ… spÄ™dzania czasu sÄ… nasze â€žSpotkania kulinarneâ€ť, podczas ktĂłrych nie tylko cieszymy podniebienie specjalnie na tÄ™ okazjÄ™ skomponowanymi zestawami menu, ale takĹĽe rozmawiamy o bogatej polskiej tradycji kulinarnej i kulturalnej. Takie inicjatywy jak nasze â€žSpotkania kulinarneâ€ť inspirowane obiadami czwartkowymi u krĂłla StanisĹ‚awa Augusta PoniatowskiegoÂ cieszÄ… siÄ™ rosnÄ…cym zainteresowaniem wĹ›rĂłd goĹ›ci, choÄ‡ potrzebujemy nieco czasu, aby nabraÄ‡ rozpÄ™du. W najbliĹĽszych miesiÄ…cach, wspĂłlnie z paniÄ… ZofiÄ… Przymus,Â wykĹ‚adowcÄ… Akademii im. Leona KoĹşmiĹ„skiego, planujemy miÄ™dzy innymi spotkania o specjalnej sezonowej tematyce. Spotkania te majÄ… charakter otwarty, serdecznie zapraszamy.
+

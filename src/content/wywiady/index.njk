@@ -2,7 +2,7 @@
 layout: base.njk
 title: Wywiady
 description: Archiwum wywiadow
-permalink: /wywiady/
+permalink: false
 ---
 
 <section class="mx-auto max-w-[1200px] py-16">
@@ -11,11 +11,18 @@ permalink: /wywiady/
     <h1 class="mt-2 text-3xl font-semibold uppercase tracking-[0.04em] text-[#0b0d1e]">Wywiady</h1>
   </div>
 
-  {% set interviews = collections.wywiadyCollection %}
+  {% set interviews = collections.interviewsCollection %}
   {% if interviews %}
     <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
       {% for interview in interviews %}
         <article class="rounded-2xl border border-black/10 bg-white p-6 shadow-sm">
+          {% set mappedInterviewImage = interviewImagesBySlug[interview.fileSlug] or interviewImagesBySlug.default %}
+          {% set interviewImage = (interview.data.postImage or mappedInterviewImage or "") | replace("/src/content/", "/content/") | replace("src/content/", "/content/") %}
+          {% if interviewImage %}
+            <a href="{{ interview.url }}" class="mb-5 block overflow-hidden rounded-2xl">
+              <img src="{{ interviewImage }}" alt="{{ interview.data.title }}" class="h-[220px] w-full object-cover" loading="lazy" decoding="async" draggable="false" />
+            </a>
+          {% endif %}
           <h2 class="text-xl font-semibold text-[#0b0d1e]">
             <a href="{{ interview.url }}" class="transition-colors hover:text-[#d4ab71]">{{ interview.data.title }}</a>
           </h2>
@@ -35,3 +42,4 @@ permalink: /wywiady/
     <p class="text-black/70">Brak opublikowanych wywiadow.</p>
   {% endif %}
 </section>
+

@@ -1,28 +1,29 @@
+﻿---
+title: "TworzyÄ‡ strategiÄ™ firmy czy nie?"
+description: "Wywiad: TworzyÄ‡ strategiÄ™ firmy czy nie?"
 ---
-title: "Tworzyć strategię firmy czy nie?"
-description: "Wywiad: Tworzyć strategię firmy czy nie?"
----
 
-# Tworzyć strategię firmy czy nie?
+# TworzyÄ‡ strategiÄ™ firmy czy nie?
 
-Source: /international/wywiady/tworzyc-strategie-firmy-czy-nie/
+Source: /international/interviews/tworzyc-strategie-firmy-czy-nie/
 
-GDY LUDZIE PYTAJĄ MNIE, CZY WARTO TWORZYĆ STRATEGIĘ FIRMY, PODAJĘ NASTĘPUJĄCY PRZYKŁAD: CZY MOŻESZ WZIĄĆ UDZIAŁ W ZAWODACH SPORTOWYCH BEZ PRZYGOTOWANIA? OCZYWIŚCIE, ALE JAKA JEST SZANSA, ŻE ZAJMIESZ MIEJSCE NA PODIUM? PROWADZENIE FIRMY BEZ OPRACOWANEJ STRATEGII JEST JAK PRÓBA ZDOBYCIA MEDALU, GDY TRENUJESZ JEDYNIE W WEEKENDY – WYJAŚNIA 
-PRZEMYSŁAW JOŃCZYK 
-— CEO GRUPY STRATEGICZNO-KREATYWNEJ JAAQOB HOLDING.
+GDY LUDZIE PYTAJÄ„ MNIE, CZY WARTO TWORZYÄ† STRATEGIÄ FIRMY, PODAJÄ NASTÄPUJÄ„CY PRZYKĹAD: CZY MOĹ»ESZ WZIÄ„Ä† UDZIAĹ W ZAWODACH SPORTOWYCH BEZ PRZYGOTOWANIA? OCZYWIĹšCIE, ALE JAKA JEST SZANSA, Ĺ»E ZAJMIESZ MIEJSCE NA PODIUM? PROWADZENIE FIRMY BEZ OPRACOWANEJ STRATEGII JEST JAK PRĂ“BA ZDOBYCIA MEDALU, GDY TRENUJESZ JEDYNIE W WEEKENDY â€“ WYJAĹšNIA 
+PRZEMYSĹAW JOĹCZYK 
+â€” CEO GRUPY STRATEGICZNO-KREATYWNEJ JAAQOB HOLDING.
 
-WL: Jak skutecznie sprzedawać?
+WL: Jak skutecznie sprzedawaÄ‡?
 
-PJ: To pytanie zadaje sobie każdy przedsiębiorca, niemniej nie ma na nie oczywistej odpowiedzi. Niezależnie od branży wszystkie firmy borykają się z prężnie działającą konkurencją. Rynek jest tak rozwinięty, że istnieje mało szczęśliwców, którzy oferują unikatowe dobra lub usługi. Jeszcze kilkanaście lat temu wystarczyło mieć ładne logo i chwytliwe hasło reklamowe. Dziś potrzeba zdecydowanie więcej, aby przyciągnąć i zatrzymać przy sobie (!) klientów. Zanim zaczniemy myśleć o zyskach, warto zastanowić się nad tym, jaką wartość ma mój produkt lub usługa. Zadać sobie pytania: Kim są moi potencjalni klienci? Co sprawi, że moja oferta będzie dla nich wartościowa? Jak mogę wyróżnić się na tle konkurencji? Na te i wiele innych pytań odpowiada rzetelna analiza konkurencji i strategia marketingowo-wizerunkowa. Skuteczną metodą pozyskiwania klientów i zwiększenia sprzedaży jest dokładne poznanie otoczenia rynkowego… i własnego przedsiębiorstwa. Odkrywając swoje wady i zalety, słabe i silne strony, można skierować sprzedaż na nieoczekiwanie dobre tory. W tym momencie może paść zarzut, że wiele firm radzi sobie bez strategii. Rzeczywiście, istnieją firmy założone w okolicach lat dziewięćdziesiątych, które do dziś działają bez planu i nieźle funkcjonują. Nikt jednak nie wspomina o tym, ile podobnych przedsiębiorstw musiało zostać zamkniętych ze względu na silniejszą, nierzadko zagraniczną konkurencję. Jednocześnie wiele firm zaczyna docierać do szklanego sufitu: nie są w stanie pozyskiwać klientów, a sprzedaż maleje.
+PJ: To pytanie zadaje sobie kaĹĽdy przedsiÄ™biorca, niemniej nie ma na nie oczywistej odpowiedzi. NiezaleĹĽnie od branĹĽy wszystkie firmy borykajÄ… siÄ™ z prÄ™ĹĽnie dziaĹ‚ajÄ…cÄ… konkurencjÄ…. Rynek jest tak rozwiniÄ™ty, ĹĽe istnieje maĹ‚o szczÄ™Ĺ›liwcĂłw, ktĂłrzy oferujÄ… unikatowe dobra lub usĹ‚ugi. Jeszcze kilkanaĹ›cie lat temu wystarczyĹ‚o mieÄ‡ Ĺ‚adne logo i chwytliwe hasĹ‚o reklamowe. DziĹ› potrzeba zdecydowanie wiÄ™cej, aby przyciÄ…gnÄ…Ä‡ i zatrzymaÄ‡ przy sobie (!) klientĂłw. Zanim zaczniemy myĹ›leÄ‡ o zyskach, warto zastanowiÄ‡ siÄ™ nad tym, jakÄ… wartoĹ›Ä‡ ma mĂłj produkt lub usĹ‚uga. ZadaÄ‡ sobie pytania: Kim sÄ… moi potencjalni klienci? Co sprawi, ĹĽe moja oferta bÄ™dzie dla nich wartoĹ›ciowa? Jak mogÄ™ wyrĂłĹĽniÄ‡ siÄ™ na tle konkurencji? Na te i wiele innych pytaĹ„ odpowiada rzetelna analiza konkurencji i strategia marketingowo-wizerunkowa. SkutecznÄ… metodÄ… pozyskiwania klientĂłw i zwiÄ™kszenia sprzedaĹĽy jest dokĹ‚adne poznanie otoczenia rynkowegoâ€¦ i wĹ‚asnego przedsiÄ™biorstwa. OdkrywajÄ…c swoje wady i zalety, sĹ‚abe i silne strony, moĹĽna skierowaÄ‡ sprzedaĹĽ na nieoczekiwanie dobre tory. W tym momencie moĹĽe paĹ›Ä‡ zarzut, ĹĽe wiele firm radzi sobie bez strategii. RzeczywiĹ›cie, istniejÄ… firmy zaĹ‚oĹĽone w okolicach lat dziewiÄ™Ä‡dziesiÄ…tych, ktĂłre do dziĹ› dziaĹ‚ajÄ… bez planu i nieĹşle funkcjonujÄ…. Nikt jednak nie wspomina o tym, ile podobnych przedsiÄ™biorstw musiaĹ‚o zostaÄ‡ zamkniÄ™tych ze wzglÄ™du na silniejszÄ…, nierzadko zagranicznÄ… konkurencjÄ™. JednoczeĹ›nie wiele firm zaczyna docieraÄ‡ do szklanego sufitu: nie sÄ… w stanie pozyskiwaÄ‡ klientĂłw, a sprzedaĹĽ maleje.
 
-BWL: Na czym więc polega skuteczny marketing?
+BWL: Na czym wiÄ™c polega skuteczny marketing?
 
-PJ: Obecnie działy marketingu stoją przed nie lada wyzwaniem. Sektor ten rozrósł się do olbrzymich wielkości, a zarządzanie wieloma wymiarami marketingu staje się coraz trudniejsze. Marketing to nie tylko reklamy, ale również odpowiadanie na potrzeby klientów czy intensywna praca z działem sprzedaży, BOK i UX. Mnogość zadań i ich zróżnicowanie wpływa na powstawanie nieścisłości w prezentowaniu marki w różnych kanałach. Aby nadążyć za zmianami i prowadzić marketing na najwyższym poziomie, należy działać wg strategii komunikacji marki, która bazuje na wewnętrznych wartościach i która odzwierciedla, to kim rzeczywiście jesteśmy i chcemy być.
+PJ: Obecnie dziaĹ‚y marketingu stojÄ… przed nie lada wyzwaniem. Sektor ten rozrĂłsĹ‚ siÄ™ do olbrzymich wielkoĹ›ci, a zarzÄ…dzanie wieloma wymiarami marketingu staje siÄ™ coraz trudniejsze. Marketing to nie tylko reklamy, ale rĂłwnieĹĽ odpowiadanie na potrzeby klientĂłw czy intensywna praca z dziaĹ‚em sprzedaĹĽy, BOK i UX. MnogoĹ›Ä‡ zadaĹ„ i ich zrĂłĹĽnicowanie wpĹ‚ywa na powstawanie nieĹ›cisĹ‚oĹ›ci w prezentowaniu marki w rĂłĹĽnych kanaĹ‚ach. Aby nadÄ…ĹĽyÄ‡ za zmianami i prowadziÄ‡ marketing na najwyĹĽszym poziomie, naleĹĽy dziaĹ‚aÄ‡ wg strategii komunikacji marki, ktĂłra bazuje na wewnÄ™trznych wartoĹ›ciach i ktĂłra odzwierciedla, to kim rzeczywiĹ›cie jesteĹ›my i chcemy byÄ‡.
 
-BWL: Czy każdy, kto tworzy własny biznes, powinien opracować plan działania?
+BWL: Czy kaĹĽdy, kto tworzy wĹ‚asny biznes, powinien opracowaÄ‡ plan dziaĹ‚ania?
 
-PJ: Zdecydowanie tak. Nawet jeżeli otwierasz start-up, to z odpowiednim planem szybciej i łatwiej osiągniesz wymarzone cele. Warto opracować „plan treningowy” swojej firmy. Tak jak sportowiec nie osiągnie formy na zawody bez regularnych treningów, tak firmy nie osiągają sukcesów, jeżeli nie wiedzą, co i jak mówić i pokazywać swoim potencjalnym klientom.
+PJ: Zdecydowanie tak. Nawet jeĹĽeli otwierasz start-up, to z odpowiednim planem szybciej i Ĺ‚atwiej osiÄ…gniesz wymarzone cele. Warto opracowaÄ‡ â€žplan treningowyâ€ť swojej firmy. Tak jak sportowiec nie osiÄ…gnie formy na zawody bez regularnych treningĂłw, tak firmy nie osiÄ…gajÄ… sukcesĂłw, jeĹĽeli nie wiedzÄ…, co i jak mĂłwiÄ‡ i pokazywaÄ‡ swoim potencjalnym klientom.
 
-BWL: Czym zajmuje się firma JAAQOB HOLDING?
+BWL: Czym zajmuje siÄ™ firma JAAQOB HOLDING?
 
-PJ: Jesteśmy grupą strategiczno-kreatywną. Naszą misją jest tworzenie skutecznych narzędzi internetowych oraz strategii marketingowych, które osiągają cele biznesowe dla naszych klientów. W zakresie tworzenia strategii marketingowych obsługujemy przede wszystkim sektor MŚP, bo według nas ma on największy potencjał rozwojowy na dzisiejszym skomercjalizowanym rynku.
+PJ: JesteĹ›my grupÄ… strategiczno-kreatywnÄ…. NaszÄ… misjÄ… jest tworzenie skutecznych narzÄ™dzi internetowych oraz strategii marketingowych, ktĂłre osiÄ…gajÄ… cele biznesowe dla naszych klientĂłw. W zakresie tworzenia strategii marketingowych obsĹ‚ugujemy przede wszystkim sektor MĹšP, bo wedĹ‚ug nas ma on najwiÄ™kszy potencjaĹ‚ rozwojowy na dzisiejszym skomercjalizowanym rynku.
+
