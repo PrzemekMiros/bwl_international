@@ -7,16 +7,21 @@ eleventyExcludeFromCollections: true
 ---
 
 <section class="mx-auto max-w-[1200px] py-16">
-  <div class="mb-8">
-    <p class="text-sm uppercase tracking-[0.2em] text-[#d4ab71]">Typ postu</p>
-    <h1 class="mt-2 text-3xl font-semibold uppercase tracking-[0.04em] text-[#0b0d1e]">Jury</h1>
-  </div>
-
+    <div class="mb-12">
+      <p class="mb-4 text-sm uppercase tracking-[0.2em] text-[#d4ab71]">Typ postu</p>
+      <h2 class="text-4xl font-semibold uppercase lg:text-6xl">Jury</h2>
+    </div>
   {% set members = collections.jury %}
   {% if members and members[0] %}
     <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
       {% for member in members %}
         <article class="rounded-2xl border border-black/10 bg-white p-6 shadow-sm">
+          {% set memberImage = (member.data.juryImage or "") | replace("/src/content/", "/content/") | replace("src/content/", "/content/") %}
+          {% if memberImage %}
+            <a href="{{ member.url }}" class="mb-5 block overflow-hidden rounded-2xl">
+              <img src="{{ memberImage }}" alt="{{ member.data.title }}" class="h-[220px] w-full object-cover object-top" loading="lazy" decoding="async" draggable="false" />
+            </a>
+          {% endif %}
           <h2 class="text-xl font-semibold text-[#0b0d1e]">
             <a href="{{ member.url }}" class="transition-colors hover:text-[#d4ab71]">{{ member.data.title }}</a>
           </h2>

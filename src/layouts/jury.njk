@@ -8,6 +8,10 @@
   {% if role %}
     <p class="mt-1 text-sm text-black/70">{{ role }}</p>
   {% endif %}
+  {% set juryImageSrc = (juryImage or "") | replace("/src/content/", "/content/") | replace("src/content/", "/content/") %}
+  {% if juryImageSrc %}
+    <img src="{{ juryImageSrc }}" alt="{{ title }}" class="mt-6 mx-auto h-auto w-full rounded-2xl object-cover" draggable="false" />
+  {% endif %}
 
   <article class="prose mt-10 max-w-none text-black/70">
     {{ content | safe }}

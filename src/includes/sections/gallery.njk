@@ -1,7 +1,7 @@
-<section class="px-6 md:px-24">
+<section class="px-6 md:px-24 py-24 bg-gray-100">
   <div class="mx-auto max-w-[1400px]">
-    <div class="mb-8 text-center">
-      <h2 class="text-4xl font-semibold uppercase lg:text-6xl">Galeria</h2>
+    <div class="mb-12 text-center">
+      <h2 class="text-decor text-4xl font-semibold uppercase lg:text-6xl">Galeria</h2>
     </div>
 
     {% if galleryImages and galleryImages.length %}
@@ -13,16 +13,25 @@
             {% set tileClass = "col-span-2 aspect-[16/10]" %}
           {% endif %}
 
-          <figure class="{{ tileClass }} group relative overflow-hidden rounded-2xl">
-            <img
-              src="{{ image.src }}"
-              alt="{{ image.alt }}"
-              class="h-full w-full object-cover object-top transition-transform duration-700 ease-out group-hover:scale-105"
-              loading="lazy"
-              decoding="async"
-              draggable="false"
-            />
-            <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-black/0"></div>
+          <figure class="{{ tileClass }} group relative overflow-hidden rounded-sm">
+            <button
+              type="button"
+              class="lightbox-trigger block h-full w-full cursor-pointer"
+              data-lightbox-src="{{ image.src }}"
+              data-lightbox-alt="{{ image.alt }}"
+              data-lightbox-group="gallery-home"
+              aria-label="Otworz zdjecie: {{ image.alt }}"
+            >
+              <img
+                src="{{ image.src }}"
+                alt="{{ image.alt }}"
+                class="h-full w-full object-cover object-top transition-transform duration-700 ease-out group-hover:scale-105"
+                loading="lazy"
+                decoding="async"
+                draggable="false"
+              />
+              <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-black/0"></div>
+            </button>
           </figure>
         {% endfor %}
       </div>

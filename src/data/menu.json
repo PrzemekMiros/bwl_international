@@ -3,15 +3,15 @@
   "navigation_main": [
     {
       "label": "O PLEBISCYCIE",
-      "url": "/o-plebiscycie/"
+      "url": "#o-plebiscycie"
     },
     {
       "label": "MIEJSCE",
-      "url": "/miejsce/"
+      "url": "#miejsce"
     },
     {
       "label": "JURY",
-      "url": "/jury/"
+      "url": "#jury" 
     },
     {
       "label": "WYWIADY",
@@ -23,11 +23,11 @@
     },
     {
       "label": "MAGAZYN",
-      "url": "/magazyn/"
+      "url": "https://businesswomanlife.pl/"
     },
     {
       "label": "KONTAKT",
-      "url": "/kontakt/"
+      "url": "#kontakt"
     }
   ]
 }

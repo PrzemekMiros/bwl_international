@@ -5,8 +5,10 @@ module.exports = function(eleventyConfig) {
   // Kopiuj pliki statyczne
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy("src/content/interviews/img");
+  eleventyConfig.addPassthroughCopy("src/content/jury/img");
   eleventyConfig.addPassthroughCopy({
-    "src/content/gallery/img": "assets/gallery"
+    "src/content/gallery/img": "assets/gallery",
+    "src/content/place/img": "assets/place"
   });
 
   eleventyConfig.addGlobalData("galleryImages", () => {
@@ -25,6 +27,26 @@ module.exports = function(eleventyConfig) {
       .sort((a, b) => a.localeCompare(b, "pl", { sensitivity: "base" }))
       .map((name) => ({
         src: `/assets/gallery/${encodeURIComponent(name)}`,
+        alt: path.parse(name).name.replace(/[-_]+/g, " ")
+      }));
+  });
+
+  eleventyConfig.addGlobalData("placeImages", () => {
+    const placeDir = path.join(__dirname, "src/content/place/img");
+    const allowedExt = new Set([".jpg", ".jpeg", ".png", ".webp", ".avif"]);
+
+    if (!fs.existsSync(placeDir)) {
+      return [];
+    }
+
+    return fs
+      .readdirSync(placeDir, { withFileTypes: true })
+      .filter((entry) => entry.isFile())
+      .map((entry) => entry.name)
+      .filter((name) => allowedExt.has(path.extname(name).toLowerCase()))
+      .sort((a, b) => a.localeCompare(b, "pl", { sensitivity: "base" }))
+      .map((name) => ({
+        src: `/assets/place/${encodeURIComponent(name)}`,
         alt: path.parse(name).name.replace(/[-_]+/g, " ")
       }));
   });
