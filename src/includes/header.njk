@@ -3,7 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ menu.project }}</title>
+    <title>{{ title or menu.project }}</title>
+    <meta name="description" content="{{ description or menu.project }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="{{ menu.project }}" />
+    <meta property="og:title" content="{{ title or menu.project }}" />
+    <meta property="og:description" content="{{ description or menu.project }}" />
+    <meta property="og:image" content="/assets/img/opengraph.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="668" />
+    <meta property="og:image:type" content="image/png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{ title or menu.project }}" />
+    <meta name="twitter:description" content="{{ description or menu.project }}" />
+    <meta name="twitter:image" content="/assets/img/opengraph.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">

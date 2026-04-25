@@ -7,7 +7,7 @@
     </div>
   </div>
 
-  {% set interviews = collections.interviewsCollection | reverse %}
+  {% set interviews = collections.interviewsCollection %}
   {% if interviews %}
     <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
       {% for interview in interviews %}
@@ -41,4 +41,3 @@
   {% endif %}
   </div>
 </section>
-

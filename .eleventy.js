@@ -1,7 +1,16 @@
 ﻿const fs = require("fs");
 const path = require("path");
+const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
 
 module.exports = function(eleventyConfig) {
+  eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+    extensions: "html",
+    formats: ["webp", "jpeg"],
+    widths: ["auto"],
+    urlPath: "/assets/optimized/",
+    failOnError: false
+  });
+
   // Kopiuj pliki statyczne
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy("src/content/interviews/img");
@@ -75,7 +84,27 @@ module.exports = function(eleventyConfig) {
         const normalized = item.inputPath.replace(/\\/g, "/");
         return normalized.includes("src/content/interviews/") && normalized.endsWith(".md");
       })
-      .sort((a, b) => b.date - a.date);
+      .sort((a, b) => {
+        const aOrder = Number.isFinite(a.data.sortOrder) ? a.data.sortOrder : Number.POSITIVE_INFINITY;
+        const bOrder = Number.isFinite(b.data.sortOrder) ? b.data.sortOrder : Number.POSITIVE_INFINITY;
+        if (aOrder !== bOrder) {
+          return aOrder - bOrder;
+        }
+
+        const hasAExplicitDate = Object.prototype.hasOwnProperty.call(a.data, "date");
+        const hasBExplicitDate = Object.prototype.hasOwnProperty.call(b.data, "date");
+
+        if (hasAExplicitDate && hasBExplicitDate) {
+          const dateDelta = new Date(b.data.date) - new Date(a.data.date);
+          if (dateDelta !== 0) {
+            return dateDelta;
+          }
+        } else if (hasAExplicitDate !== hasBExplicitDate) {
+          return hasAExplicitDate ? -1 : 1;
+        }
+
+        return a.fileSlug.localeCompare(b.fileSlug, "pl", { sensitivity: "base" });
+      });
     return items;
   });
 
@@ -98,5 +127,3 @@ module.exports = function(eleventyConfig) {
     dataTemplateEngine: "njk"
   };
 };
-
-
