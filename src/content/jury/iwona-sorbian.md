@@ -4,7 +4,7 @@ description: "Profil czlonkini jury International Businesswoman Awards."
 person: "Iwona Sorbian"
 role: "Czlonkini Jury"
 excerpt: "Ekspertka biznesu i komunikacji, wspierajaca rozwoj przedsiebiorczosci."
-juryImage: "/src/content/jury/img/Iwona-Sorbian.jpeg"
+juryImage: "/content/jury/img/Iwona-Sorbian.jpeg"
 ---
 
 

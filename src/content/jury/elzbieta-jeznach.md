@@ -4,7 +4,7 @@ description: "Profil czlonkini jury International Businesswoman Awards."
 person: "Elzbieta Jeznach"
 role: "Czlonkini Jury"
 excerpt: "Ekspertka biznesu i komunikacji, wspierajaca rozwoj przedsiebiorczosci."
-juryImage: "/src/content/jury/img/elzbieta_jeznach.jpeg"
+juryImage: "/content/jury/img/elzbieta_jeznach.jpeg"
 ---
 
 Elzbieta Jeznach jest czlonkinia jury konkursu International Businesswoman Awards.
