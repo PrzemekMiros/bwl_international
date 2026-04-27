@@ -3,10 +3,10 @@
   <head>
     {% set pageTitle = title or menu.project %}
     {% set pageDescription = description or menu.project %}
-    {% set baseUrl = site.url or "" %}
-    {% set pageUrl = (baseUrl ~ page.url) if baseUrl else page.url %}
+    {% set baseUrl = (site.url if site and site.url else "https://internationalbusinesswomanawards.com") %}
+    {% set pageUrl = baseUrl ~ page.url %}
     {% set ogImagePath = "/assets/img/opengraph.png" %}
-    {% set ogImageUrl = (baseUrl ~ ogImagePath) if baseUrl else ogImagePath %}
+    {% set ogImageUrl = baseUrl ~ ogImagePath %}
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
