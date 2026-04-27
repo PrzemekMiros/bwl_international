@@ -23,6 +23,7 @@
         {% for image in placeImages %}
           {% set mod = loop.index0 % 10 %}
           {% set tileClass = "col-span-1 aspect-[3/4]" %}
+          {% set imageAlt = image.alt or "Miejsce gali International Businesswoman Awards" %}
           {% if mod == 0 or mod == 4 or mod == 7 %}
             {% set tileClass = "col-span-2 aspect-[16/10]" %}
           {% endif %}
@@ -32,13 +33,13 @@
               type="button"
               class="lightbox-trigger block h-full w-full cursor-pointer"
               data-lightbox-src="{{ image.src }}"
-              data-lightbox-alt="{{ image.alt }}"
+              data-lightbox-alt="{{ imageAlt }}"
               data-lightbox-group="place-gallery"
-              aria-label="Otworz zdjecie: {{ image.alt }}"
+              aria-label="Otworz miniature i zdjecie: {{ imageAlt }}"
             >
               <img
                 src="{{ image.src }}"
-                alt="{{ image.alt }}"
+                alt="{{ imageAlt }}"
                 eleventy:ignore
                 class="h-full w-full object-cover object-top transition-transform duration-700 ease-out group-hover:scale-105"
                 loading="lazy"

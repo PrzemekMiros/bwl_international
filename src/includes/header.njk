@@ -1,22 +1,37 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="pl">
   <head>
+    {% set pageTitle = title or menu.project %}
+    {% set pageDescription = description or menu.project %}
+    {% set baseUrl = site.url or "" %}
+    {% set pageUrl = (baseUrl ~ page.url) if baseUrl else page.url %}
+    {% set ogImagePath = "/assets/img/opengraph.png" %}
+    {% set ogImageUrl = (baseUrl ~ ogImagePath) if baseUrl else ogImagePath %}
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ title or menu.project }}</title>
-    <meta name="description" content="{{ description or menu.project }}" />
+    <title>{{ pageTitle }}</title>
+    <meta name="description" content="{{ pageDescription }}" />
+    <link rel="canonical" href="{{ pageUrl }}" />
+
     <meta property="og:type" content="website" />
+    <meta property="og:locale" content="{{ site.locale or 'pl_PL' }}" />
     <meta property="og:site_name" content="{{ menu.project }}" />
-    <meta property="og:title" content="{{ title or menu.project }}" />
-    <meta property="og:description" content="{{ description or menu.project }}" />
-    <meta property="og:image" content="/assets/img/opengraph.png" />
+    <meta property="og:title" content="{{ pageTitle }}" />
+    <meta property="og:description" content="{{ pageDescription }}" />
+    <meta property="og:url" content="{{ pageUrl }}" />
+    <meta property="og:image" content="{{ ogImageUrl }}" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="668" />
     <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:alt" content="{{ menu.project }}" />
+
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="{{ title or menu.project }}" />
-    <meta name="twitter:description" content="{{ description or menu.project }}" />
-    <meta name="twitter:image" content="/assets/img/opengraph.png" />
+    <meta name="twitter:title" content="{{ pageTitle }}" />
+    <meta name="twitter:description" content="{{ pageDescription }}" />
+    <meta name="twitter:image" content="{{ ogImageUrl }}" />
+    <meta name="twitter:image:alt" content="{{ menu.project }}" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
@@ -50,7 +65,7 @@
       </div>
       <div class="bg-[#171717] shadow-[inset_0_1px_0_rgba(255,255,255,0.07)]">
         <div class="mx-auto max-w-[1200px] px-4 md:px-0">
-          <nav class="relative">
+          <nav class="relative" role="navigation">
             <details class="group md:hidden">
               <summary class="flex h-[52px] cursor-pointer list-none items-center justify-between px-2 text-[13px] font-medium uppercase tracking-[0.08em] text-white">
                 <span>Menu</span>
